@@ -1,0 +1,111 @@
+.box {
+	background-color: #ede8e0;
+}
+body{
+	background-color: #ede8e0;
+	margin: 0px;
+	padding: 0px;
+	font-family: ;
+}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #44291c;
+}
+nav h1{
+	color: #44291c;
+	font-size: 50px;
+}
+nav .onglets{
+	margin-top: 5px;
+	margin-left: 300px;
+}
+nav .onglets a{
+	text-decoration: none;
+	color: #44291c;
+	margin-right: 10px;
+	border-bottom: 0.5px solid #44291c;
+	padding-bottom: 2px;
+}
+header{
+	color: #44291c;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url("C:/Users/hp/Documents/Github/site aurélie/images/b2.jpg");
+	background-size: cover;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #44291c;
+	padding-top: 75px;
+	padding-bottom: 35px;
+}
+header h1 {
+	font-size: 50px;
+	margin-top: 50px;
+}
+header h4{
+	margin-top: 15px;
+	font-size: 20px;
+	text-align: center;
+	border-bottom: 1px solid #44291c;
+}
+header button{
+	padding: 10px 20px;
+	background-color: white;
+	color: #44291c;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+}
+.main{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main .content .card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.main .content .card .left{
+	flex:0 0 30%;
+	padding: 20px;
+	background-color: #d1c4ae;
+	color: #44291c;
+}
+.main .content .card .right{
+	flex
+}
+.main .content .card .right img{
+	height: 250px;
+	width: 300px;
+	margin-top: 5px;
+}
+
+footer {
+	margin-top: 40px;
+	border-top: 2px solid #d1c4ae;
+	background-color: #d1c4ae;
+	color: #44291c;
+	padding: 30px 100px;	
+}
+footer h1{
+	border-bottom: 1px solid #44291c ;
+	width: 18%;
+	padding-bottom: 5px;
+}
+
+footer .services{
+	margin-top: -10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer .services .service1{
+	margin-right: 30px;
+	padding:10px;
+	max-width: 330px;
+}
